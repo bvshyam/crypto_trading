@@ -1,3 +1,5 @@
+## note: not used in my nltk notebook; saving for later if we decide to add friend sentiments
+
 ## Mark Kay method of graphing followers
 ## http://mark-kay.net/2014/08/15/network-graph-of-twitter-followers/
 
