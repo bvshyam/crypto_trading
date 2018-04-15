@@ -41,7 +41,7 @@ class listener(StreamListener):
             vs = analyzer.polarity_scores(tweet)
             sentiment = vs['compound']
             #print(time_ms, tweet, sentiment)
-            a = ['crypto','BTC','coin','coins','#BTC']
+            a = ['crypto','BTC','bitcoin','coins','#BTC','#cryptocurrency']
             if any(x in tweet for x in a):
                 print(time_ms, tweet, sentiment)
                 c.execute("INSERT INTO sentiment (unix, tweet, sentiment) VALUES (?, ?, ?)",(time_ms, tweet, sentiment))
